@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In/Up</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="signpage.css">
+</head>
+
+<body>
+<div class="flex sign items-center justify-center h-screen">
+    <div class="flex sign2 md:w-[10em] bg-white justify-center md:gap-36  rounded-xl shadow-lg">
+        <form class="w-5/5 md:w-5/5 justify-center p-4 md:pl-36 md:pt-24" method="post">
+            <h2 class="text-3xl font-semibold mb-6 text-gray-800">Welcome Back!</h2>
+            <div class="mb-4">
+                <label for="email" class="block text-sm font-medium text-gray-700" style="font-family: 'Cyberway Riders', cursive">Email Address</label>
+                <input type="email" id="email" name="email" class="mt-1 p-2 block w-full md:w-96 rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
+            </div>
+            <div class="mb-4">
+                <label for="password" class="block text-sm font-medium text-gray-700" style="font-family: 'Cyberway Riders', cursive">Password</label>
+                <input type="password" id="password" name="password" class="mt-1 p-2 block w-full md:w-96 rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
+            </div>
+            <div class="flex items-center justify-between mb-4">
+                <div class="flex items-center">
+                    <input type="checkbox" id="remember_me" name="remember_me" class="h-4 w-4 text-indigo-600 focus:ring-indigo-500 border-gray-300 rounded">
+                    <label for="remember_me" class="ml-2 block text-sm text-gray-900" style="font-family: 'Cyberway Riders', cursive">Remember me</label>
+                </div>
+                <div class="text-sm">
+                    <a href="#" class="font-medium pl-4 md:pl-5 text-indigo-600 hover:text-indigo-500" style="font-family: 'Cyberway Riders', cursive">Forgot your password?</a>
+                </div>
+            </div>
+            <div>
+                <link rel="preconnect" href="https://fonts.gstatic.com">
+                <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+                <button>
+                    <a href="index.html">Sign In</a>
+                </button>
+            </div>
+            <p class="mt-4 text-sm text-gray-600">Don't have an account?<a href="#" class="font-medium text-indigo-600 hover:text-indigo-500" style="font-family: 'Cyberway Riders', cursive">Sign Up</a></p>
+        </form>
+        <div class="hidden md:flex md:w-4/4 justify-end">
+            <img src="image/abdfb5eaa1c716ca54b9d0cdcd2209b3.jpg" alt="Image" class="h-full rounded-br-xl rounded-tr-xl">
+        </div>
+    </div>
+</div>
+</body>
+
+</html>
+
